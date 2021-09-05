@@ -40,7 +40,7 @@ function App() {
   // console.log(loggedinuser);
   return (
     <Cart.Provider value={{ state, dispatch }}>
-      <Router >
+      <Router basename="/amazon-clone" >
         <div className="App">
           <Switch>
             {/* One way of doing this */}
